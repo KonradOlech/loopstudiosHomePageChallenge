@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+html {
+  font-size: 10px;
+  font-family: var(--font-main);
+  --regular-font: 1.5rem
+	--
+;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-secondary);
+}
+
+.text-xl {
+  font-size: 10rem;
+  font-weight: 400;
+}
+
+.text-large {
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.text-regular {
+  color: var(--text-color-light);
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.btn {
+  font-size: 1.6rem;
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+}
+
+.text-shadow {
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.viewport-side-padding {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.viewport-tb-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.bar-tb-padding {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/*# sourceMappingURL=system.css.map */

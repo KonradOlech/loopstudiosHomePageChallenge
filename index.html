@@ -24,31 +24,117 @@
 				color: hsl(228, 45%, 44%);
 			}
 		</style>
+		<link rel="stylesheet" href="/styles/variables.css" />
+		<link rel="stylesheet" href="/styles/system.css" />
+		<link rel="stylesheet" href="/styles/style.css" />
 	</head>
 	<body>
-		<div class="container">
-			<nav class="navbar">
-				<img
-					src="/images/logo.svg"
-					alt="Loppstudios' logo"
-					class="navbar-logo"
-				/>
-				<ul class="navbar-links">
-					<li><a href="#hero"> Home </a></li>
-					<li><a href="#about"> About Us </a></li>
-					<li><a href="#creatins"> Our Creations </a></li>
-				</ul>
-			</nav>
-			<section id="hero" class="hero"></section>
-			<section id="about" class="about"></section>
-			<section id="creations" class="creations"></section>
-			<footer class="footer"></footer>
-		</div>
-		<!-- About Careers Events Products Support Immersive experiences that deliver The
-		leader in interactive VR Founded in 2011, Loopstudios has been producing
-		world-class virtual reality projects for some of the best companies around
-		the globe. Our award-winning creations have transformed businesses through
-		digital experiences that bind to their brand. Our creations See all Deep
+		<nav class="navbar viewport-side-padding bar-tb-padding text-shadow">
+			<img src="/images/logo.svg" alt="Loppstudios' logo" class="navbar-logo" />
+			<ul class="navbar-links text-regular">
+				<li><a href="#hero"> Home </a></li>
+				<li><a href="#about"> About Us </a></li>
+				<li><a href="#creations"> Our Creations </a></li>
+			</ul>
+		</nav>
+		<section id="hero" class="hero viewport-side-padding viewport-tb-padding">
+			<div class="hero-motto">
+				<h1 class="text-xl">
+					Immersive <br />
+					experiences <br />
+					that deliver
+				</h1>
+			</div>
+		</section>
+		<section id="about" class="about viewport-side-padding viewport-tb-padding">
+			<!-- <div class="about-photo"> -->
+			<img
+				src="/images/desktop/image-interactive.jpg"
+				alt="Photo of man in VR helmet"
+			/>
+			<!-- </div> -->
+			<div class="about-text">
+				<h2 class="text-large">The leader in interactive VR</h2>
+				<p class="text-regular">
+					Founded in 2011, Loopstudios has been producing world-class virtual
+					reality projects for some of the best companies around the globe. Our
+					award-winning creations have transformed businesses through digital
+					experiences that bind to their brand.
+				</p>
+			</div>
+		</section>
+		<section
+			id="creations"
+			class="creations viewport-side-padding viewport-tb-padding"
+		>
+			<div class="creations-heading">
+				<h2 class="text-large">OUR CREATIONS</h2>
+				<a href="#" class="btn btn-light">SEE ALL</a>
+			</div>
+			<div class="creations-gallery">
+				<div class="gallery-item">
+					<img src="/images/desktop/image-deep-earth.jpg" alt="" />
+					<h3 class="text-shadow">Deep Earth</h3>
+				</div>
+				<div class="gallery-item">
+					<img src="/images/desktop/image-night-arcade.jpg" alt="" />
+					<h3 class="text-shadow">Night Arcade</h3>
+				</div>
+				<div class="gallery-item">
+					<img src="/images/desktop/image-soccer-team.jpg" alt="" />
+					<h3 class="text-shadow">Soccer Team VR</h3>
+				</div>
+				<div class="gallery-item">
+					<img src="/images/desktop/image-grid.jpg" alt="" />
+					<h3 class="text-shadow">
+						The <br />
+						Grid
+					</h3>
+				</div>
+				<div class="gallery-item">
+					<img src="/images/desktop/image-from-above.jpg" alt="" />
+					<h3 class="text-shadow">From up above VR</h3>
+				</div>
+				<div class="gallery-item">
+					<img src="/images/desktop/image-pocket-borealis.jpg" alt="" />
+					<h3 class="text-shadow">Pocket borealis</h3>
+				</div>
+				<div class="gallery-item">
+					<img src="/images/desktop/image-curiosity.jpg" alt="" />
+					<h3 class="text-shadow">The curiosity</h3>
+				</div>
+				<div class="gallery-item">
+					<img src="/images/desktop/image-fisheye.jpg" alt="" />
+					<h3 class="text-shadow">MAke it fisheye</h3>
+				</div>
+			</div>
+		</section>
+		<footer class="footer viewport-side-padding">
+			<img src="/images/logo.svg" alt="Loopstudios' logo" />
+
+			<ul class="footer-social navbar-links text-regular">
+				<li>
+					<a href="#"><img src="/images/icon-facebook.svg" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="/images/icon-twitter.svg" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="/images/icon-pinterest.svg" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="/images/icon-instagram.svg" alt="" /></a>
+				</li>
+			</ul>
+			<ul class="footer-links navbar-links text-regular">
+				<li><a href="#hero"> Home </a></li>
+				<li><a href="#about"> About Us </a></li>
+				<li><a href="#creations"> Our Creations </a></li>
+			</ul>
+			<p class="footer-trademarks">© 2021 Loopstudios. All rights reserved.</p>
+		</footer>
+
+		<!--    Our creations See all Deep
 		earth Night arcade Soccer team VR The grid From up above VR Pocket borealis
 		The curiosity Make it fisheye About Careers Events Products Support © 2021
 		Loopstudios. All rights reserved. -->
